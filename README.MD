@@ -4,6 +4,16 @@
 [![PySide6](https://img.shields.io/badge/PySide6-6.3-darkcyan?logo=qt&style=flat&labelColor=013243)](https://doc.qt.io/qtforpython/)
 [![pyinstaller](https://img.shields.io/badge/pyinstaller-5.1-darkcyan?style=flat&labelColor=013243)](https://pypi.org/project/pyinstaller/)
 
+- [FuckTX 腾讯即时通讯缓存整理归档工具](#fucktx-腾讯即时通讯缓存整理归档工具)
+  - [项目说明](#项目说明)
+  - [功能说明](#功能说明)
+  - [操作方法](#操作方法)
+    - [常见缓存目录](#常见缓存目录)
+    - [使用界面操作](#使用界面操作)
+    - [使用命令行操作](#使用命令行操作)
+    - [使用拖放操作](#使用拖放操作)
+  - [系统支持](#系统支持)
+
 ## 项目说明
 * 因为腾讯系通讯软件的缓存机制，导致大量图片或视频文件被缓存在许多零散路径中，不便整理，所以写了这个工具。
 
@@ -56,7 +66,7 @@
 * 拖放操作不可更改默认的入参
 * 拖放操作支持拖放文件夹和文件两种模式，需要注意拖放文件过多可能会超出操作系统命令行字符字数限制
 
-## 操作系统支持
+## 系统支持
 * 目前exe程序只支持win10 64位
 * 最低支持win7，如果需要在win7上运行，则按如下操作：
 * 1. 下载并解压全部源码
